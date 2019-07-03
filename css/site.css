@@ -1,0 +1,48 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    display: flex;
+    line-height: 1.5;
+    flex-wrap: wrap;
+}
+
+h1, h2, .subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+}
+
+.titulo-principal {
+    text-align: center;
+    background-color: #FE2E2E;
+    color: #FFF;
+    padding: 2em;
+    border-bottom: .5em solid #000;
+}
+
+main p {
+    text-align: justify;
+    margin: 1em 0;
+}
+
+
+main {
+    padding-bottom: 4em;
+    flex-grow: 1;
+}
+
+main a {
+    color: #851944;
+}
+
+main a:hover,
+main a:focus,
+footer a:focus,
+footer a:hover {
+    color: red;
+}
