@@ -280,6 +280,36 @@ footer a {
     position: relative;
 }
 
+.banner-linkedin {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    line-height: 1;
+
+    -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+            transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+
+    padding: 1em 3em;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+    -webkit-animation: aparece .5s;
+            animation: aparece .5s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+
 
 @keyframes aparece {
     from {
